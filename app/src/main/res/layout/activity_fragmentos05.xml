@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Fragmentos05" >
+
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="es.jcabrera.fragmentos05.Fragmento1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" />
+
+    <fragment
+        android:id="@+id/fragmento2"
+        android:name="es.jcabrera.fragmentos05.Fragmento1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" />
+
+</LinearLayout>
